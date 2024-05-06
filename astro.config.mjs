@@ -16,7 +16,17 @@ export default defineConfig({
         src: './public/logo.png'
       },
       sidebar: [
-        
+        {label: 'Start Here', link: '/start-here'},
+        {
+          label: 'About Me',
+          items: [
+            {label: 'Social Links', link: '/about/socials'},
+            {label: 'My Now', link: '/about/now'},
+            {label: 'My Education', link: '/about/education'},
+            {label: 'My Work', link: '/about/work'},
+          ],
+        },
+        {label: 'Documentation', link: 'https://docs.excalian.com'},
       ],
       customCss: ['./src/tailwind.css'],
       lastUpdated: false,
