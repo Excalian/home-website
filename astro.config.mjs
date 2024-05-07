@@ -17,10 +17,10 @@ export default defineConfig({
       },
       sidebar: [
         {label: 'Now', link: '/now', badge: {text: 'Broken', variant: 'danger'}},
+        {label: 'Socials', link: '/socials'},
         {
           label: 'About Me',
           items: [
-            {label: 'Social Links', link: '/about/socials'},
             {label: 'My Education', link: '/about/education'},
             {label: 'My Work', link: '/about/work'},
           ],
