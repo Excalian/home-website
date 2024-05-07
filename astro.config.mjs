@@ -16,7 +16,6 @@ export default defineConfig({
         src: './public/logo.png'
       },
       sidebar: [
-        {label: 'Start Here', link: '/start-here'},
         {
           label: 'About Me',
           items: [
@@ -47,7 +46,7 @@ export default defineConfig({
               url: "https://yavko.com/"
             }
           },
-          prevNextLinksOrder: 'chronological',
+          // prevNextLinksOrder: 'chronological',
           prefix: 'blog',
         })
       ]
