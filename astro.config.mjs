@@ -11,21 +11,21 @@ export default defineConfig({
     starlight({
       title: "Excalian's HomePage",
       pagefind: false,
-      description: "My (Excalian's) personal website",
+      description: "The homepage of my website",
       logo: {
-        src: './public/logo.png'
+        src: './src/assets/logo.png'
       },
       sidebar: [
+        {label: 'Now', link: '/now', badge: {text: 'Broken', variant: 'danger'}},
         {
           label: 'About Me',
           items: [
             {label: 'Social Links', link: '/about/socials'},
-            {label: 'My Now', link: '/about/now'},
             {label: 'My Education', link: '/about/education'},
             {label: 'My Work', link: '/about/work'},
           ],
         },
-        {label: 'Documentation', link: 'https://docs.excalian.com'},
+        {label: 'Documentation', link: 'https://docs.excalian.com', badge: {text: 'Redirect', variant: 'tip'}},
       ],
       customCss: ['./src/tailwind.css'],
       lastUpdated: false,
@@ -37,12 +37,12 @@ export default defineConfig({
             excalian: {
               name: "Marcellino Abdelmalak",
               title: "Full-Time Student",
-              picture: '/large_logo.png',
+              picture: './src/assets/large_logo.png',
               url: "https://www.excalian.com/"
             },
             yavko: {
               name: "Yavor Kolev",
-              picture: '/authors/yavko.png',
+              picture: './src/assets/authors/yavko.png',
               url: "https://yavko.com/"
             }
           },
