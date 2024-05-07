@@ -37,14 +37,9 @@ export default defineConfig({
             excalian: {
               name: "Marcellino Abdelmalak",
               title: "Full-Time Student",
-              picture: './src/assets/large_logo.png',
+              picture: 'https://www.excalian.com/_astro/large_logo.DPTKAlgC_3dyqL.webp',
               url: "https://www.excalian.com/"
             },
-            yavko: {
-              name: "Yavor Kolev",
-              picture: './src/assets/authors/yavko.png',
-              url: "https://yavko.com/"
-            }
           },
           // prevNextLinksOrder: 'chronological',
           prefix: 'blog',
